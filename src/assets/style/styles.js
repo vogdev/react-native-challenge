@@ -1,35 +1,29 @@
-import {NativeModules, StyleSheet} from 'react-native';
-
-const {StatusBarManager} = NativeModules;
+import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
 	// General Styles Start
   container: {
-		margin:24,
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
 	topContainer:{
-		marginTop:StatusBarManager.HEIGHT,
-		marginBottom:60,
 		flex: 1,
 	},
 	// General Styles End
-
-	// Navbar Styles Start
-	navbar:{
-		height:60,
-		backgroundColor:'lightgray',
+	
+	// EndMessage Styles Start
+	theEndMessageContainer:{
 		alignItems:'center',
-		justifyContent:'center',
+		marginBottom: 160,
+		marginTop:20,
 	},
-	navTitle:{
-		fontSize:23,
-		fontWeight:"500",
+	theEndMessage:{
+		fontSize:18,
+		fontWeight:'bold'
 	},
-	// Navbar Styles End
+	// EndMessage Styles End
 
 	// Card Styles Start
 	card:{

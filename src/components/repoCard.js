@@ -1,6 +1,6 @@
 import { View, Text, Image } from 'react-native';
 import styles from "../assets/style/styles";
-import { AntDesign } from '@expo/vector-icons'; 
+import { AntDesign } from '@expo/vector-icons';
 
 export default function RepoCard({ repoData }) {
 	const formatter = (num, digits) => {
